@@ -6,7 +6,7 @@ Explanation of eaach tool can be found on the links below:
 * Grafana (http://grafana.org/)
 * Graphite (http://graphiteapp.org/)
 * Prometheus (https://prometheus.io/)
-Note: The Vagrant file is configured to run machine with 2GB of RAM and 2 CPU, edit this parameters as needs.
+Note: The Vagrantfile is configured to run machine with 2GB of RAM and 2 CPU, edit this parameters to your needs.
 
 ## Requirements
 * [Git](http://git-scm.com)
