@@ -26,6 +26,7 @@ After successfull installation, you can visit the tools using the links below
 * Grafana: http://localhost:3000
 * Promethues: http://localhost:9090
 * Graphite: http://localhost:8080
+
 The installation creates additional user to the system, username:"appuser", password:"appuser".
 Admin credentials for Grafana, username:"admin", password:"password".
 Default dashboard is configured during the provisioning proccess and configured for the appuser.
