@@ -21,7 +21,9 @@ cd vagrant-grafana-prometheus-graphite
 vagrant up
 ```
 Vagrant up command will install Grafana, Prometheus, Graphite and other dependencies on ubuntu 16.04 OS.
-Prometheus is pulling metrics from node_exporter.
+The setup is adding minimal dashboard monitoring CPU, RAM, IO.
+Adding graphite and prometheus as Datasources, for the graphs I'm using prometheus only but graphite metrics tested and works fine.
+Prometheus is pulling metrics from node_exporter, Graphite using carbon.
 After successfull installation, you can visit the tools using the links below
 * Grafana: http://localhost:3000
 * Promethues: http://localhost:9090
